@@ -12,7 +12,9 @@
             this.address =  address
         }
 
-       
+       studentData(){
+        console.log(`Student Namea: ${this.name}`)
+       }
 
     }
 
