@@ -20,6 +20,7 @@
 
     const student1 = new Student('Sakibut', 22, "Adamjee")
 
+    console.log(student1);
 
     //
 }
