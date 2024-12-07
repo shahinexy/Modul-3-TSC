@@ -1,0 +1,6 @@
+{
+    // Static in OOP
+
+
+    //
+}
