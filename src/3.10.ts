@@ -13,19 +13,19 @@
             this.address = address;
         }
 
-        addDeposit(amount: number){
-            this._balance = this._balance + amount;
-        }
+        // addDeposit(amount: number){
+        //     this._balance = this._balance + amount;
+        // }
 
-        getBalance(){
-            return this._balance
-        }
+        // getBalance(){
+        //     return this._balance
+        // }
     }
 
     const goribAccount = new BankAccount(111, 'Gorid', 20, 'adamjee');
-    goribAccount.addDeposit(20);
+    // goribAccount.addDeposit(20);
 
-    console.log(goribAccount.getBalance());
+    // console.log(goribAccount.getBalance());
 
     class Student extends BankAccount {
         test(){
